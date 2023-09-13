@@ -1,0 +1,141 @@
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>My Weather App</title>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Noto+Sans+SC:wght@300;400;500&family=Ysabeau+SC:wght@100&display=swap" rel="stylesheet">
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+          crossorigin="anonymous"
+        />
+<link rel="stylesheet" href="src/styles.css"/>
+      </head>
+      <body>
+        <h1>
+          Weather Forecast
+        </h1>
+        <form class="search-form" id="search-form">
+        <div class="container">
+          <div class="weather-input">
+            <input type="text" id="search-input" placeholder="Search City">
+            <button id ="searchButton" type="submit" class="btn btn-outline-secondary">Search</button>
+            <button id ="currentButton" type="button" class="btn btn-outline-secondary">Current</button>
+            <P id="location"></p>
+              <P id="temperature"></p>
+              </div>
+            </form>
+            <div class="cities">
+                <ul>
+            <li class="city">Pretoria</li>
+            <li class="city">Mbombela</li>
+            <li class="city">Johannesburg</li>
+          </ul>
+          </div>
+<div class="weather-info">
+<div class="current-weather">
+  <div class="details">
+<h2 id="city"> </h2>
+<ul>
+<li id="date"></li>
+    <li id="description"></li>
+</ul>       
+<span class="temperature" id="temperature"></span>
+<span class="units">
+  <span= class="celsius" id="celsius-link">°C</a> 
+  <span class="fahrenheit" id="fahrenheit-link">°F</a>
+</span>
+<span style="color: #212529;">
+<i class="fa-solid fa-sun fa-6x"></i>
+</span>
+<br>
+<p> Humidity:   <span id="humidity"></span>% </p>
+<p> Dew Point:  <span id="dewPoint"></span>km/h </p>
+<p>Precipitation: 10%</p>
+<br>
+<hr>
+<div class="weekdays-container">
+    <div>
+      <i class="fa-solid fa-cloud-rain fa-4x"></i><br><span>Tuesday</span><span>13°6°</span>
+    </div>
+  <div>
+    <i class="fa-solid fa-cloud-showers-heavy fa-4x"></i><br><span>Wednesday
+    </span><span>19°3°</span>
+  </div>
+    <div>
+      <i class="fa-solid fa-cloud-sun fa-4x"></i><br><span>Thursday</span><span>16°7°</span>
+    </div>
+   <div>
+      <i class="fa-solid fa-cloud fa-4x"></i><br><span>Friday</span><span>25°7°</span>
+    </div>
+    <div>
+      <i class="fa-solid fa-sun fa-4x"></i><br><span>Saturday</span><span>
+          24°7°</span>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="src/index.js"></script>
+      </body>
+    </html>
+  </head>
+</html>
+<footer>Coded by Boitumelo Thindiza </footer>
